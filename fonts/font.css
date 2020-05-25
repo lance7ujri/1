@@ -1,0 +1,11 @@
+@font-face{
+	font-family:'Josefin Sans';
+	src: url("JosefinSans-Regular.ttf");
+	/*font-family: 'Josefin Sans', sans-serif;*//*EN*/
+	font-family:'Forum';
+	src: url("Forum-Regular.ttf");
+	src: url("Forum-Regular.eot");
+	src: url("Forum-Regular.woff");
+	src: url("Forum-Regular.woff2");
+	/*font-family: 'Forum', cursive;*//*RU*/
+}

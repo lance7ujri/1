@@ -1,0 +1,381 @@
+@media screen and (max-width: 768px) {
+	li{list-style: none;}
+	a{text-decoration: none; color: white;}
+	a:hover{text-decoration: none; color: white;}
+
+	body{
+		min-width: 100%;
+		background: #dce3ef;
+		font-family: 'Forum', sans-serif, cursive;
+	}
+
+	header{
+		margin: -1px auto;
+		width: 100%;
+		height: auto;
+		min-width: 100%;
+		min-height: 100%;
+		background-image: url("../../img/bg_mobile.jpg.html");
+		background-repeat: no-repeat;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		background-position:  center center;
+		background-attachment: scroll;
+		overflow: hidden;
+		display: none;
+
+	}
+	.logo{
+		display: block;
+		margin: 30px auto;
+		border-radius: 40px;
+		-o-border-radius: 40px;
+		-webkit-border-radius: 40px;
+		opacity: 0.8;
+		padding-bottom: 1px;
+		width: 70%;
+	}
+	.welcome{
+		margin: 200px auto;
+		width: auto;
+		height: auto;
+		background: rgba(0,0,0, 0.4);
+		color: white;
+		display: none;
+	}
+
+	.welcome p, h1 {
+		text-align: center;
+	}
+	.welcome p{
+		font-size: 1.5em;
+	}
+	.welcome h1{
+		font-size: 2.5em;
+	}
+	/*NAV*/
+	.menu{
+		display: none;
+	}
+	nav{
+		margin:  10px auto;
+		width: auto;
+		height: auto;
+		background: #dce3ef;
+		font-family: 'Forum', cursive;
+	}
+	.mobile_nav{
+		margin: auto;
+		font-size: 1.5em;
+		text-align: center;
+		display: block;
+	}
+	
+	.navbar{
+		width: 100%;
+		top: -10px;
+		position: fixed;
+		text-align: center;
+		font-size: 18px;
+		border: none;
+	}
+	.navbar li{
+		border-bottom: 1px dotted lightgray;
+	}
+	.border_none{
+		margin-bottom: -7px;
+	}
+	.dropdown ul { 
+		height: 320px;
+		overflow-y: scroll;
+		padding: 5px;
+	}
+	.dropdown li{
+		padding: 5px;
+		width: 100%;
+		text-align: center;
+		font-size: 17px;
+
+	}
+	.navbar-header {
+		background-image: url("../../img/logo.svg");
+		background-position: 0 -2px;
+		background-color: #00565B;
+		height: 50px;
+		-webkit-background-size: 86%;
+		background-size: 86%;
+		background-repeat: no-repeat;
+	}
+	
+	.navbar-toggle{
+		background-color: rgb(196,30,58);
+		float: right;
+		margin-right: 5px;
+		border: 1px solid rgb(254,254,254) !important;
+	}
+	.navbar-toggle:hover{
+		background-color:rgb(196,30,58) !important; 
+	}
+	.navbar-toggle:focus{
+		background-color:rgb(196,30,58) !important; 
+	}
+	.icon-bar{
+		border: 1px solid rgb(254,254,254)!important;
+	}
+
+	/*NAV END*/
+
+	/*MAIN CONTENT START*/
+
+	.container{
+		display: none; /*SLIDER*/
+	}					
+	.content{
+		margin: 30px auto;
+		width: 100%;
+		height: auto;
+		background: white;
+		font-family:'Forum';
+	}
+	.content p{
+		font-size: 17px;
+		text-align: center;
+	}
+	
+	.panel-heading{
+		background-color: rgb(0,86,91) !important;
+		
+	}
+	.panel-title{
+		color: white !important;
+	}
+	.panel-title a:hover{
+		color: white !important;
+	}
+	.panel-title a:focus{
+		color: white !important;
+	}
+	.fitness_schedule{
+	width: 100%;
+	}
+	.table{
+		margin: auto;
+		width: 100%;
+		border: 1px solid #d2d2d2;
+		text-align: center;
+		font-size: 10px;
+	}
+	.table_day, .table_time{
+		width: auto;
+		border: 1px solid #d2d2d2;
+	}
+	.table_name{
+		width: auto;
+
+	}
+	.table_color-bg{
+		background-color: #ededed;
+	}
+	
+	
+
+	/*GALLERY*/
+	
+	
+	.panel-title{
+		font-size: 26px;
+		font-weight: 700;
+		color: black;
+		text-align: center;
+	}
+	.gym_gallery{
+		margin: auto;
+		width: 100%;
+		height: auto;
+		padding: 0;
+	}
+	
+
+	.gallery{
+		margin: auto;
+		width: 100%;
+		height: auto;
+		padding: 0;
+		
+	}
+	.gallery img{
+		margin: 2px auto;
+		width: 100%;
+		height: auto;
+		box-shadow: 0 0 20px black;
+		-webkit-box-shadow: 0 0 20px black;
+		-ms-box-shadow: 0 0 20px black;
+		-o-box-shadow: 0 0 20px black;
+		-moz-box-shadow: 0 0 20px black;
+
+		
+	}
+	.gallery li{
+		display: block;
+		margin: auto;
+		width: 300px;
+		max-width: 100%;
+		padding-top: 1px;
+
+	}
+
+	
+
+
+
+
+	/*COACH GALLERY*/
+	.coaching_staff{
+		margin: 15px auto;
+		width: auto;
+		height: auto;
+	}
+	.coach_gallery img{
+		margin:  auto;
+		display: block;
+		width: 200px;
+		height: 200px;
+
+		filter: none;
+		
+		border-radius: 250px;
+		-webkit-border-radius: 250px;
+		-ms-border-radius: 250px;
+		-o-border-radius: 250px;
+		-moz-border-radius: 250px;
+		box-shadow: 0 0 20px black;
+		-webkit-box-shadow: 0 0 20px black;
+		-ms-box-shadow: 0 0 20px black;
+		-o-box-shadow: 0 0 20px black;
+		-moz-box-shadow: 0 0 20px black;
+	}
+	.coach_gallery li{
+		display: block;
+		margin: 3px  auto; 
+		width: 240px;
+		
+	}
+
+	.coach_gallery{
+		padding-left: 20px;
+	}
+	
+	h3{
+		font-size: 18px;
+	}
+	.coach_gallery_link{
+		font-size: 1.1em;
+		display: block;
+		margin: auto;
+		width: 96%;
+		color: #e3e3e3;
+		font-family:'Forum';
+		padding: 8px 2px;
+		border: 1px solid lightgray;
+		border-radius: 4px;
+		background-color: rgba(0,0,0, 0.4);
+	}
+	.coach_gallery_link:hover{
+		text-decoration: none;
+		color: #e3e3e3;
+		background-color: rgba(0,0,0, 0.6);
+	}
+	.coach_social_network_link{
+		color: #fff;
+		text-decoration: none;
+	}
+	.coach_social_network_link:hover{
+		color: #fff;
+		text-decoration: none;
+	}
+
+	/*MAP*/
+	.map{
+		margin: 0 0 0 0;
+		width: 100%;
+		height: 450px;
+
+	}
+	.map iframe{
+		margin: auto;
+	}
+	.panel-body{
+		padding: 3px;
+	}
+	/*MAIN CONTENT END*/
+
+	/*FOOTER*/
+
+	footer{
+		margin: -35px auto;
+		width: auto;
+		height: 200px;
+		background-color: #00565B;
+		font-family:'Forum';
+		bottom: 0;
+	}
+	.footer{
+		margin: auto;
+		width: auto;
+		height: 200px;
+		background-color: #00565B;
+		color: white;
+		bottom: 0;
+	}
+
+	.footer li{
+		display: block;
+		text-align: center;
+		color: white;
+		padding-top: 4px;
+		background-color: #00565B;
+	}
+	.footer a{
+		color: white;
+		font-size: 20px;
+	}
+	.footer a:hover{
+		text-decoration: none;
+		color: #E9E7E7;
+		
+	}
+	.footer ul{
+		padding: 0 0 0 0px;
+	}
+
+
+	.partners{
+		display: none;
+	}
+
+	.footer_menu{
+		display: none;
+	}
+
+	.social_network{
+		margin: 7px auto;
+		width: 100%;
+		height: auto;
+		text-align: center;
+
+	}
+	.year_open{
+		display: block;
+		font-size: 15px;
+
+
+	}
+	.mobile_version{
+		display: block;
+		font-style: italic;
+		font-size: 15px;
+	}
+}
